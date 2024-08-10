@@ -72,16 +72,18 @@ This code is for the Backend of the Healthiest Pharmacy app and it is done on ph
 
 Then download the zip file of the project and extract the files into a new folder
 
-Open your IDE such as Visual studio code and press on file option and then press on open folder and open the folder in which you extracted the code files
+1) Open your IDE such as Visual studio code and press on file option and then press on open folder and open the folder in which you extracted the code files
 
-Doawnload Laragon and press "start all"  button to activiate it, also download sqlyou and start and new connection in it. 
+2) Download Laragon and press "start all"  button to activiate it, also download sqlyou and start a new connection in it. 
 
-open terminal in IDE and write "composer install" in terminal if this commands runs successfully then move to the next step and if it shows errors then install composer in your system from internet
+3) open terminal in IDE and write "php -v" in terminal if this commands runs successfully then move to the next step and if it shows errors then open settings in your IDE then in settings open search icon and search "php" and then open "settings.json" and then add "C:\\laragon\\bin\\php\\php-8.1.10" in php.validate.executepath 
 
-open terminal in IDE and write "php artisan migrate" in terminal and then write "yes" in terminal 
+4) open terminal in IDE and write "composer install" in terminal if this commands runs successfully then move to the next step and if it shows errors then install composer in your system from this link "https://getcomposer.org/download/" and after installing open environment variables and open PATHNEXT and add ";.PHAR" at the end of its value
 
-Then write "php artisan create:admin-user" in terminal and then write "php artisan add:medicine-categories" in terminal 
+5) open terminal in IDE and write "php artisan migrate" in terminal and then write "yes" in terminal 
 
-Now write "php artisan serve" in terminal and copy the provided url and open it in browser.
+6) Then write "php artisan create:admin-user" in terminal and then write "php artisan add:medicine-categories" in terminal 
 
-Now project will run and healthest pharmacy project will also be visible in sql
+7) Now write "php artisan serve" in terminal and copy the provided url and open it in browser.
+
+8) Now project will run and healthest pharmacy project will also be visible in sql
