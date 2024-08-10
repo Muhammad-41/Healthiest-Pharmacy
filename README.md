@@ -65,7 +65,7 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
-##Hot To use this code
+## How To use this code
 
 Hello I hope you are doing well, Here are instructions to how to download and run this code. 
 This code is for the Backend of the Healthiest Pharmacy app and it is done on php, so it requires php,laravel and sqlyog for execution.
